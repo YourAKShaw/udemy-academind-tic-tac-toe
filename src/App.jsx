@@ -25,7 +25,7 @@ function App() {
       const activePlayer = deriveActivePlayer(prevTurns);
 
       const updatedTurns = [
-        { square: { row: rowIndex, col: colIndex }, player: currentPlayer },
+        { square: { row: rowIndex, col: colIndex }, player: activePlayer },
         ...prevTurns,
       ];
 
